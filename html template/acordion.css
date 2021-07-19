@@ -8,7 +8,7 @@
 
 html {
   font-family: 'DM Sans', sans-serif;
-  font-size: 10px;
+  font-size: .8rem;
   box-sizing: border-box;
 }
 
@@ -40,7 +40,7 @@ section {
 
 .accordion-link{
   font-size: 1.6rem;
-  color: rgba(255,255,255,.8);
+  color: rgba(255,255,255,.4);
   text-decoration: none;
   background-color: #000000;
   width: 100%;
@@ -69,8 +69,8 @@ section {
 }
 
 .accordion-link li{
-  font-size: 10px;
-  color: rgba(255, 255, 255, 0.4);
+  font-size: .8rem;
+  color: rgba(255, 255, 255, 0.2);
   padding: 0 0 1px 5px;
 }
 
@@ -91,16 +91,21 @@ section {
 }
 
 
-
+h2{
+    padding-top: 2rem;
+    font-size: 5rem;
+    color: rgba(255,255,255,.6);
+    text-decoration: none;
+}
 .answer p{
-  color: #fff;
-  font-size: 15px;
-  padding: 2rem;
+    color: rgba(255,255,255,.4);
+  font-size: 1.5rem;
+  padding: 3rem;
   
 }
 
 .accordion-item:target .answer{
-  max-height: 20rem;
+  max-height: 80rem;
 }
 
 .accordion-item:target .accordion-link .ion-md-arrow-forward{
