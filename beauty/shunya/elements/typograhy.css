@@ -1,0 +1,178 @@
+/* 
+
+https://open.nytimes.com/how-we-implemented-a-baseline-grid-using-css-cb13cac45201 
+https://ux.stackexchange.com/questions/35270/is-there-an-optimal-font-size-line-height-ratio
+https://stackoverflow.com/questions/26160964/how-to-position-text-on-a-baseline/26162830
+https://iamvdo.me/en/blog/css-font-metrics-line-height-and-vertical-align
+https://css-tricks.com/how-to-tame-line-height-in-css/
+https://www.smashingmagazine.com/2012/12/css-baseline-the-good-the-bad-and-the-ugly/
+
+*/
+/*
+// Base Typography
+// - - - - - - - - - - - - - - -
+// These are styles applied to basic HTML tags, including:
+//   - Paragraphs <p>
+//   - Bold/italics <b> <strong> <i> <em>
+//   - Small text <small>
+//   - Headings <h1>—<h6>
+//   - Anchors <a>
+//   - Dividers <hr>
+//   - Lists <ul> <ol> <dl>
+//   - Blockquotes <blockquote>
+//   - Code blocks <code>
+//   - Abbreviations <abbr>
+//   - Citations <cite>
+//   - Keystrokes <kbd>
+*/
+/*
+
+Five different typography sizes are included out of the box:
+
+*/
+
+/*
+-------------------------------------------------------------------------------
+2.  Typography [hm-02]
+-------------------------------------------------------------------------------
+*/
+
+
+
+blockquote {
+  margin-left: 0px;
+  margin-right: 0px;
+  padding-left: 1em;
+  padding-top: 0.8em;
+  padding-bottom: 0.8em;
+  padding-right: 0.8em;
+  border-left: 5px solid #1d7484;
+  margin-bottom: 2.5rem;
+  background-color: #f1f1f1; }
+
+blockquote p {
+  margin-bottom: 0; }
+
+/* Pre and Code */
+pre {
+  background-color: #f1f1f1;
+  display: block;
+  padding: 1em;
+  overflow-x: auto;
+  margin-top: 0px;
+  margin-bottom: 2.5rem; }
+
+
+code {
+  font-size: 0.9em;
+  padding: 0 0.5em;
+  background-color: #f1f1f1;
+  white-space: pre-wrap; }
+
+pre > code {
+  padding: 0;
+  background-color: transparent;
+  white-space: pre; }
+
+
+  label, legend, fieldset {
+    display: block;
+    margin-bottom: .5rem;
+    font-weight: 600; }
+  
+    @use cssnext;
+
+    html {
+      background: #00000011;
+    }
+    
+    /**
+     * Ratio and base variables
+     */
+    
+    :root {
+      --ratio: 1.2;
+      --base: 1;
+      --base-em: calc(var(--base) * 1em);
+      --base-px: calc(var(--base) * 16px);
+    }
+    
+    /**
+     * Scale step variables
+     */
+    
+    :root {
+      --ms0: 1;
+      --ms1: var(--ratio);                    /* 1.2   */
+      --ms2: calc(var(--ratio) * var(--ms1)); /* 1.44  */
+      --ms3: calc(var(--ratio) * var(--ms2)); /* 1.728 */
+      --ms4: calc(var(--ratio) * var(--ms3)); /* 2.074 */
+      --ms5: calc(var(--ratio) * var(--ms4)); /* 2.488 */
+      --ms6: calc(var(--ratio) * var(--ms5)); /* 2.986 */
+      --ms7: calc(var(--ratio) * var(--ms6)); /* 3.583 */
+    }
+    
+    /**
+     * Resets
+     */
+    
+    * + * {
+      margin-top: calc(1rem / var(--ms1));
+    }
+    
+    /**
+     * Default font sizes
+     */
+    
+    body {
+      font-size: calc(var(--base-em) * var(--ms0));
+      line-height: calc(var(--base) * var(--ms2));
+      max-width: 40em;
+    }
+    
+    h6 { font-size: calc(var(--base-em) / var(--ms1)); }
+    h5 { font-size: calc(var(--base-em) * var(--ms0)); }
+    h4 { font-size: calc(var(--base-em) * var(--ms1)); }
+    h3 { font-size: calc(var(--base-em) * var(--ms2)); }
+    h2 { font-size: calc(var(--base-em) * var(--ms3)); }
+    h1 { font-size: calc(var(--base-em) * var(--ms4)); }
+    
+    h3, 
+    h2 { line-height: calc(var(--base) * var(--ms1)); }
+    h1 { line-height: calc(var(--base) * var(--ms0)); }
+    
+    /**
+     * Proportional increments 
+     */
+    
+    @media (min-width: 480px) {
+      html { font-size: calc(var(--base-px) * var(--ms1)); }
+    }
+    
+    @media (min-width: 768px) {
+      h3 { font-size: calc(var(--base-em) * var(--ms3)); }
+      h2 { font-size: calc(var(--base-em) * var(--ms4)); }
+      h1 { font-size: calc(var(--base-em) * var(--ms5)); }
+    }
+    
+    @media (min-width: 1024px) {
+      h2 { font-size: calc(var(--base-em) * var(--ms5)); }
+      h1 { font-size: calc(var(--base-em) * var(--ms6)); }
+    }
+    
+    @media (min-width: 1360px) {
+      html { font-size: calc(var(--base-px) * var(--ms2)); }
+      h1 { font-size: calc(var(--base-em) * var(--ms7)); }
+    }
+    
+    /**
+     * Utility classes
+     */
+    
+    .u-textBigger { 
+      font-size: calc(var(--base-em) * var(--ms1)); 
+    }
+    
+    .u-textSmaller { 
+      font-size: calc(var(--base-em) / var(--ms1)); 
+    }

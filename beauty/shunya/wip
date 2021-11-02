@@ -1,0 +1,112 @@
+
+@media (prefers-color-scheme: dark) {
+  :root {
+      --color: #0097fc;
+      --color-accent: #0097fc4f;
+      --color-bg: #333;
+      --color-bg-secondary: #555;
+      --color-link: #0097fc;
+      --color-secondary: #e20de9;
+      --color-secondary-accent: #e20de94f;
+      --color-shadow: #bbbbbb20;
+      --color-table: #0097fc;
+      --color-text: #f7f7f7;
+      --color-text-secondary: #aaa;
+  }
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;1,100;1,200;1,300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+:root{
+
+  /*  dark and light */
+--dark:#343a40ff;
+--light:#f4f4ffff;
+--black: #0d0d0dff;
+--white:#ffffff;
+--grey:#909090ff;
+
+/* theme colors*/
+--color-primary: #007affff;
+--color-secondary-success:#27a844ff;
+--color-danger:#dc3546ff;
+--color-warning:#fec107ff;
+--color-info:#17a2b7ff;
+
+/* foundation theme
+$light-gray: #e6e6e6;
+$medium-gray: #cacaca;
+$dark-gray: #8a8a8a;
+$black: #0a0a0a;
+$white: #fefefe;
+primary: #1779ba,
+  secondary: #767676,
+  success: #3adb76,
+  warning: #ffae00,
+  alert: #cc4b37,
+
+  */
+/*  Spacing :  Primarly used for margin and spacing.  */
+--sp-extra-tight: 4px;
+--sp-tight:8px;
+--sp-mid:12px;
+--sp-normal:16px;
+--sp-loose: 20px;
+--sp-extra-loose: 32px;
+
+
+/*
+sizes
+
+*/
+--smallest: 13px;
+--small:16px;
+--normal: 21px;
+--large:34px;
+--largest:55px;
+--gigantic: 89px;
+
+/*
+sizes
+Primarly used for text. 
+*/
+--text-smallest: 13px;
+--text-small:16px;
+--text-normal: 21px;
+--text-large:34px;
+--text-largest:55px;
+--text-gigantic: 89px;
+
+--font-primary : 'Montserrat', sans-serif;
+--font-secondary : 'Rubik', sans-serif;
+--font-highlight : font-family: 'Montserrat', sans-serif;
+--f-size-base: 16px;
+--f-line-height-heading: 1.5;
+--f-line-height-body: 1.5;
+--line-height:1.5;
+
+    
+
+/*
+pari.theme.breakpoints	
+    */
+--desktop-width: 1280px;
+--sm-desktop-width: 980px;
+--tab-width: 768px;
+--phone-width:480px;
+--sm-phone-width: 320px;
+
+
+/* background 
+--body-background : url(/assets/gfx/shunya/bg/shunyaWallaperBG_WO_circle.svg);
+*/
+--body-background :var(--white)
+/* Colors */
+
+--width-content:89%;
+--color-text:var(--dark);
+}
+.darkTheme{
+
+  --color: var(--dark);
+}

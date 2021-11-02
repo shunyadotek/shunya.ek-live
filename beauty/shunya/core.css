@@ -1,0 +1,162 @@
+
+
+
+* {
+  box-sizing: border-box;
+  width: auto;
+  height: auto;
+  margin: 0;
+  padding: 0;
+  font-size: 1em;
+  vertical-align: center;
+  text-align: left;
+  font-weight: normal;
+  list-style-type: none;
+  text-decoration: none;
+  border: none;
+  outline: none;
+  resize: none;
+  font-size: 100%;		
+  font: inherit;		
+  vertical-align: baseline;	
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+  }
+  html,body{
+    width: 100%;
+    height: 100%;
+    text-decoration: none;
+    color:var(--light);
+}
+
+
+.bgimg {
+background-image: url("/assets/gfx/shunya/bg/shunyaWallaperBG_WO_circle.svg");
+height: 100%;
+background-position: center;
+background-size: cover;
+position: relative;
+
+}   
+    /* HTML5 display-role reset for older browsers */		
+    article,aside, details, figcaption, figure,		
+    footer, header, hgroup, menu, nav, section {		
+    display: block;		
+    }	
+
+    /*
+     Default body styles
+     */
+     body {
+      margin: 0;
+      padding: 0;
+    /*
+      // using environment variables to account for non-rectangular displays e.g. phones with notches.
+    */
+    /*
+      padding-top: 2%;
+      padding-right: 2%;
+      padding-bottom: 2%;
+      padding-left: 2%;
+     */
+     
+     
+      
+    /*
+      font-family: $body-font-family;
+      font-weight: $global-weight-normal;
+      line-height: $global-lineheight;
+      color: $body-font-color;
+    
+      @if ($body-antialiased) {
+        -webkit-font-smoothing: antialiased; // sass-lint:disable-line no-vendor-prefixes
+        -moz-osx-font-smoothing: grayscale; // sass-lint:disable-line no-vendor-prefixes
+      }
+      */
+    }
+    
+    
+    article{
+        
+      /* Take the remaining width */
+      flex: 1;
+    
+      /* Make it scrollable */
+      overflow: auto;
+     
+      /* Padding for content*/
+      padding-left: 13%;
+      padding-right: 13%;
+      
+    }
+
+
+section{
+  margin: 3%;
+  border-style: solid;
+  position: relative;
+  display: flexbox;
+  padding: 1rem 1.5rem;
+  height:54vh;
+  
+}
+nav{
+  padding-top: 3%;
+  height: 144px;
+  
+
+  align-items: center;
+}
+
+
+ul{
+  display: block;
+}
+li{
+  display: inline-block;
+  text-decoration: none;
+  width: 100%;
+}
+.right{
+  float:right;
+}
+
+a,button{
+  
+  
+  text-align: center;
+  float: left;
+  padding: var(--sp-mid);
+  margin-left: var(--sp-mid);
+  margin-right: var(--sp-mid);
+  text-decoration: none;
+  font-size:var(--text-normal);
+  color: var(--dark);
+}
+/* @rashi, please choose button hover and other state animation*/
+a:hover {
+  color: var(--light);
+
+}
+
+/* please describe the rule.*/
+
+a:not(:first-child) {
+  margin-left: 1.5rem;
+}
+
+a:hover .toggle-display {
+display: block;
+}
+
+footer{
+  position: absolute;
+  bottom: 0%;
+  display: block;
+  float: right;
+  height:21%;
+  border-style: solid;
+  align-items: center;
+  align-content: center;
+  color:white
+}
