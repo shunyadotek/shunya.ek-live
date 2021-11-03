@@ -136,14 +136,14 @@ a,button{
 /* @rashi, please choose button hover and other state animation*/
 a:hover {
   color: var(--light);
-
+  text-decoration: underline;
 }
 
 /* please describe the rule.*/
 
-a:not(:first-child) {
+/* a:not(:first-child) {
   margin-left: 1.5rem;
-}
+} */
 
 a:hover .toggle-display {
 display: block;
