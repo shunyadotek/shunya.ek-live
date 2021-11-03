@@ -24,6 +24,14 @@ shunya.ek.live
 
 shunya.about.
     header-about
+                section -disclaimer - 
+                         when thoughts and memories will be shared in a blink, data-based decisions will be an everyday norm.
+
+                        our world will be at it’s efficient best, connected, automated & secure.
+
+                        at shunya.ek we are  building that world, in bits and bytes.
+
+                        Allow Coocie button + Copy
             section - Experience
                    
                     we homo sapiens are an entity in constant state of change & motion.
