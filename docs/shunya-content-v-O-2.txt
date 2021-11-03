@@ -1,0 +1,567 @@
+
+Security : All - restricted pages are marked with restricted atribute;
+Audience - All - Often Audience is mentioned, these are the user types.
+
+path -  0dot.live/view?shunya
+
+        0dot1.live,
+        0dot1.alive,
+        shunyadotek.com,etc,
+
+-----
+
+shunya.ek.live
+        actionSpaceApp.View.layout
+                            .nav
+                            .article
+                              
+                                .aside-left - table of content
+                                .main - content 
+                                       .header
+                                .aside-right
+                                .article-footer
+                            .footer
+
+shunya.about.
+    header-about
+            section - Experience
+                   
+                    we homo sapiens are an entity in constant state of change & motion.
+                    experience
+                    form | function | beauty in its simplest form.
+                    online or offline.
+
+                    This is our public manifesto.
+                    For privacy & security (and embarrassment) reasons, not everything is in here.
+
+    section - why
+                
+                  wherever you are, it’s a start.
+
+            
+                sectionHeader.drive
+                        
+                        efficiency creates room for creativity.
+
+                        In this era of complexity, and open data theft, there is a huge vacuum of simple, integrated, nextGen systems we believe by simply adhering to our own values and promise, we can fill that gap. In simple words, make the world efficient, safe and integrated
+
+                us :
+                        Do we know algorithms & coding languages best in the world. No
+                        Do we understand  technology & experiences in the simplest of the form Big yes. 
+
+
+                        Just like kids opening up a radio we get excited on seeing a  user pain point or a workflow problem to meet it’s simplest/correct solution.
+
+                our :
+                        vision
+                        when thoughts and memories will be shared in a blink, data-based decisions will be an everyday norm.
+
+                        our world will be at it’s efficient best, connected, automated & secure.
+
+                        at shunya.ek we are  building that world, in bits and bytes.
+
+
+                        mission:
+
+                        disrupt | unite | inspire
+                        technology has aided us, humans, in most of our noble endeavours: art, science, business, entertainment, health… the list goes on.
+
+                        Today's dominant computing Software/ platforms increasingly work against the needs of creative professionals.
+
+                        We at shunya.ek love working on { this } problem.
+
+                        In short, digitally transform, work-lives of hardworking creative professionals,
+                        powered by your data & our AI || bits & Bytes.
+
+                        values:
+
+                                truthful | loyal | agile
+
+                        these words shape the big decisions we make everyday, the art| technology | business decisions.  how we collaborate with our colleagues | tribe within and outside. 
+                        we are set out to develop an Ecosystem for an efficient future.
+
+                        Honouring our past and working together in tandem with our Tribe, we are not afraid to make mistakes. 
+
+                        They lead to beautiful things, in a very fun | creative | inspiring way.
+                        
+                        belief :
+                                where ever you are it's a start
+                                change is the only constant
+                                #noDeadline
+                                opensource
+                                keep the mug empty
+                                shared knowledge
+                                efficiency fuels creativity
+                                work should be fun
+                                karm kar fal ki iccha mat kar.
+                                every bit matters
+                                make mistakes
+                                world needs re-classification
+
+
+
+    section - who
+                 header
+                    stop.go.think
+                    we are Free spirit responsible human beings.
+                
+                we are 
+                        us : shunya
+                                shunya.ek registered as dot shunya ek pvt ltd. is a smart work tool company with offices in Goa & Faridabad.
+
+                                We offer simple digital products &  solutions to let creative professionals, focus on what matters the most. While taking care of handful of problems they face day2day.
+
+                                And that's it.
+
+                                Keeping it simple. If you have any questions, or if we can do anything to help you,
+                                
+                                please get in touch, using the button below.
+
+                                Thank you! — Gitesh Kohli ( Founder & CEO ).
+                                
+                                reach-out.button
+
+                        us : people
+                                Driven by our zeal to outperform our-self, we are a team of professionals from advertising, films, software industry. Working from home, across India, our strength is extended by our partner & associates.
+
+                                We have a background in research & design driven innovation in digital content industry and a track record of successfully delivering world class experiences on tiny deadline & shoe-string budgets.
+
+                                We love to solve complex work-flow problems and can get obsessive about finding solutions.
+
+                        us: people.vibe
+                                we have a casual work culture.
+                                We strictly follow #no Deadlines yet put our best at every story in action.
+                                We adhere to 5 hrs x 5 work - day work culture.
+                                And speak our self as per our brand Voice.
+                        
+                        us : people.vibe.music
+                                spotify playlist (current listening)
+                        
+                        us : people.vibe.picCollage
+                                images impossible grid
+                        
+                        us  : faces
+                                as a brand, shunya.ek embodies a persona of a friend who is a geek.
+                                constantly pushing our race to embrace the best of technology, be the best of himself.
+                                thereby increasing efficiency of this planet.
+
+
+                                Each one of our brands represents our shared ethos.
+                                We listen to them from the heart, think empathetically, and help each other grow.
+
+                        us : faces
+                                logo card.
+                                        shunya.ek
+                                        O.1
+                                        jungleStudio
+                                        x-tension.tech
+
+                are you?
+                        Someone well-versed in his craft or an amateur starting out.
+                        Our product & solutions benefit 
+                                creative professionals
+                                content creators
+                                low-code developers
+                                affiliate marketers
+                                educators
+                                Project Managers
+                                Product Teams
+                                Design Teams
+                                Institutions
+
+                are our focus
+                        industry
+                                Advertising
+                                events
+                                education 
+                                        online
+                                        off-lines
+                                Films
+                                Construction
+                                Software Development  https://vaadin.com/company
+                                web development
+                                small business
+                                Salon's and Parlours
+                                start-ups
+                                Small Manufactureses
+                                Coaching centers
+                                Online Educators
+                                Film Studios
+
+                        processes || profiles
+                                web designer/developers https://vaadin.com/company
+                                low code developers https://vaadin.com/company
+                                creative professionals
+                                educators
+                                Affiliate marketers
+                                Project Managers
+                                Product Teams
+                                Design Teams
+                                Institutions
+
+                        subjects
+                                bespoke software solutions
+                                        cloud
+                                        desktop
+                                
+                                workflow || system design
+
+                                immersive experiences
+
+                are in our company
+                                our clients you may know of
+                                        all.Tab
+                                        CORPORATE.Tab
+                                        GOVT.Tab
+                                        NGO.Tab
+                                        Recent.Tab
+                can
+                
+                        use our products
+                                        earthling who are honest to their crafts. though our provide deeepest of insights about a user bevaviour or projects, we discourage people misusing it as a HR solution.
+                                        people who want to add value in others life. If you love open-source, we are in the right company.
+                        partner with us
+                                        you seek change
+                                        you seek progress
+                                        you seek value driven business envoirnment
+                                        you seek a sustainable future
+                                        you understand what efficiency is.
+
+                        work /intern with us -
+                        
+                                    apply
+                        
+                        collaborate with us
+                                    open Projects
+                                        We push you and your team to be creative problem solvers within every function of your organisation and we like to believe we inject the necessary knowledge to level-up competences and skills in a short duration.	
+                                            
+                                        Want to join us?	
+                                        https://www.upstrategylab.com/careers	
+                                        Go to our careers page	
+                                            
+                                        Drop us a message	
+                                        Not sure what to write?‍	
+                                        Tell us about your company, where you're from and how you would like to collaborate.	
+
+                work with  -
+                            values our opinion
+                        Many of our clients have spent years investing in new business capabilities, integrating acquisitions and modernizing their technology stacks, all of which is necessary to bring best-of-breed solutions to market. But these strategic investments can result in a complex estate of legacy infrastructure, skill sets, processes — even culture.
+
+                Thoughtworks brings more than 25 years of global technology consultancy experience to every partnership. We enable our clients to leverage core assets and remove technology roadblocks. Our clients think big, they have big ambitions. They trust us to deliver disruptive thinking and innovative technology that empowers them to succeed. From large, global Fortune 500 enterprises to digital natives and digital scale ups, we’ve build the tech foundations behind some of the world’s most successful businesses.
+
+    section - what
+                do.we.do.
+                                discovering your new set of work tools.
+
+                                We build the smartest work-tools for the hardest workers on this planet, while having all the fun.
+                                -- to be deleted - We make products that we enjoy using everyday.
+
+                                Everything we make fights the friction that stops creators from putting energy into their creation.
+                                Our tools help us do work faster, because there are more important things in life than sitting in front of a computer.
+                                So finish your work and go do those things. Or do more work. Whatever.
+                                It's your life.
+
+                                we always believe, it’s always man behind the machine, and never the other way around, and man can always find a way to do a job efficiently than a machine.
+
+                        
+                        product - we build, helpful products
+                                
+                                
+                                All products tell a story. We make sure it's a good one.
+
+                                based on the core concepts of form, function and beauty, our  products and solutions, to help creative professional imbibe a culture of efficient creativity.
+
+                                Some of the common attributes of all our products are
+
+                                        form :	Modular Form,		
+                                        Keeping the brand promise of [ wherever you are ], our products are designed and developed keeping, simplest of form and can be used across devices and operating systems.		
+                                                
+                                        You can use our products like a :		
+                                                Snippet	
+                                                browser add-on	
+                                                a web service	
+                                                browser App	
+                                                desktop App	
+                                                
+                                                
+                                        Function :			
+                                        Covering most of the functional department and processes of a mid size organisations.		
+                                        Built in automation.		
+                                        realtime collaboration across versatile teams.		
+                                        secure, lightweight.		
+                                        easily customisable.		
+                                        low infrastructure.		
+                                        secure.		
+                                        Beauty			
+                                        Simple, user friendly, bespoke.....your world the way you want to use it.		
+                                                
+                                                
+                                product.slider
+
+                                ehh- one world
+                                        a light-weight framework, to write notes, speeches, create estimates to presentation. All in a very few lines of code.
+                                        drive documents  spreadsheet presentations Images Video all in one tab.
+                                        World’s fastest too.
+
+                                        An open source project, [ everything happens here ] , is the core behind rest of shunya.ek digital products.
+
+                                        children
+                                        every Lead : a easy to implement CRM modules. With most of the features of it;s contemporaries. User can store his data in a google sheet or google drive.
+                                        every Project :  a sturdy, uniquely intuitive project management & knowledge management tool
+                                        everyTask : a small todo, task management.
+                                        chanchal :  workflow automation tool. Runs on Cloud and on client. Has drag and drop ui builder.
+                                        actionSpace Editor : a single tab where, richText Meets the cells, vector meets the raster, words meets the voice. An Interface to create any kinds of data be it simple text, vector, raster, static HTML to interactive videos and presentations.
+
+                                films.go -
+                                                                A film production, development software.
+                                        From story ideas brief to call sheet to storyboard to publish all in single tab. And hey’ it’s a in inbuilt video editor as well.
+
+
+
+
+                                manu.events - A event production, development software.
+                                                From client brief to show run-down to presentation to speaker notes all in single tab.
+                                                And hey’ it’s has a in inbuilt presentor/teleprompter as well.
+                                                managing events was never this easy.
+
+                                
+                                Momac - ministry of magic on ActionCells
+                                        A spreadsheet addon, that adds steroid on any normal excel sheet.
+                                        To start with it solves one the biggest problem of all excel and spreadsheet user. Sync to cells of two different files. 
+                                        Rest of the features are as unique as the first one.
+
+
+                                moneyMatters
+                                bindu - A smart work tool for creative professionals. Mostly used for research and feedback. Has inbuilt, Project Management, Feedback Management. Web-Annotation, Image and video annotations. User can create quizzes, polls, besides an intuitive frame by frame contextual conversation
+                                        available as snippet, chrome extension, PWA
+
+                                films.go
+                                manu.Events
+                                estimate Generator
+                                helpDesk
+                                pari -this is the secret reciepe for all our gorgeus designs
+                                sia
+                                actionSpaceEditor
+                                whatsGoinOn
+                                
+                        Solutions -
+
+                                Solutions for Larger Productions , Teams & Enterprises
+
+                                our solutions create a secure, collaborative, real-time work environment for teams to achieve efficient Creativity.
+
+                                They make it easy to share expertise, resources, assets above all any form of day amongst a virtual workforce secured in real time.
+
+                                Developed on our inhouse open-source hybrid ecosystem, lets our user get the best of both offline and online systems, helps us cut the pricing low.
+
+                                We stress on harnessing the power of the cloud. Whether your concern is data security or automation or seamless integration, we can have a solutions tailored just for you just in time.
+
+
+                                        sheetErp - scalable erp built on sheets.
+
+                                        ehh - a modern framework to create,distribute, manage content.
+
+                                        actionOAuth2 - oAuth without dependency or tracking.
+                                                shunya.ek’s modern approach to work tools enables organisations to provide secure access to any application, for any user. 
+
+                                                Our  actionAuth0 framework is a highly customisation identity operating system that is as simple as development teams want and as flexible as they need.
+
+                                                Safeguarding billions of login transactions each month, Auth0 delivers convenience, privacy, and security so customers can focus on innovation. 
+                                                For more information, visit https://actionAuth0.0dot1.live.
+        
+                        Services -
+                                Story-telling of any form, with focus on
+                                        digital product development
+                                                webApp development	
+                                                Api integration
+                                        no-code solutions
+                                        automation systems - pipelines
+                                        workflow systems - pipelines
+                                        design systems & frameworks
+                                        custom blue-prints & templates
+                                        Immersive - experiences
+                                                online
+                                                stuggling to 
+                                                
+                                                offline
+
+
+                                        digital content
+
+                                        consultancy :
+                                                https://www.cabotsolutions.com/everything-you-need-to-know-about-cto-as-a-service	
+                                                Schedule a meeting
+
+
+                        Projects -
+                                We dedicate hours in engineering latest workflows, testing out innovative approaches, analysing and evaluating technologies ; all geared towards making things possible.
+                                
+                                pari
+                                actionEngine
+                                dug dug go
+
+                are the problems we solve
+                        are the problems				
+                                single user			
+                                        1-2 ppl		
+                                        small team		
+                                                College groups	
+                                                Communities	
+                                                NGO	
+                                                Freelancers	
+                                                Enterpreneurs	
+                                        couple		
+                                        friends		
+                                        Too many platforms,		
+                                        No professional network.		
+                                        adful experience		
+                                                        
+                                family			
+                                        1-2 ppl 2 kids		
+                                        --------		
+                                        Privacy, no control on spending.		
+                                        Multiple services.		
+                                                        
+                                small			
+                                        1-5 ppl		
+                                        --------		
+                                        High Input cost hence Illegal or free.		
+                                        Training		
+                                        Language.		
+                                        Multi Sales, multi vendor format		
+                                                        
+                                mid			
+                                        5-55 ppl		
+                                        --------		
+                                        per person		
+                                        Avg 2000 per month		
+                                                        
+                                large			
+                                        55-233 ppl		
+                                        --------		
+                                        per person		
+                                        avg 1000 per month		
+                                                        
+                                Enterprise			
+                                        large		
+                                        233-		
+                                        --------		
+                                        per person		
+                                        avg 800 per month		
+                                                        
+    section - where
+                -our space&Places
+                        Along with having a workshop in Goa and an office in faridabad, we actively work from anywhere.
+                        We share an immense faith in collaborations and all our workspaces are
+                        vibrant, open and creative zones
+                        where art meets technology,
+                        where ideas meet technical know-how. 
+                        Join our tribe!
+                - our voices
+
+                        We actively engage with our tribe on different social medium and on our blogs. We believe and promote Creative Common License and Open-Source Licensees. Films, AR/VR, productivity tips, we love talking about all of that. Share the vibe. Let’s Collaborate.
+                                Find all #Tags of our Area of interests here."
+                                Social Posts
+                                blogs
+                                case studies
+                                press kit aka #shunya.ek Live
+
+                - 
+
+
+    section - how
+                techStack -
+                work-methodology -
+                naming-conventions -
+                glossary -
+
+    footer
+        copy right dotsunyaek pvt.Ltd.
+        made with ehh and pari
+
+
+shunya.work
+                header-work
+                        If you've ever found yourself digging through a junk drawer for a screwdriver, ruler, wrench, or bottle opener, then you've likely learned the value of having something on hand to accomplish whatever task with which you are stuck. 
+                        "If you're now on the hunt to get ur hands on peice of software  to ease your work frustrations and inconveniences, go no further.
+                        Ease your pain and suffering with these handy and portable ehh tools."
+                Feedback
+                products
+                        ehh- 
+                                easy as if you are fish in the water
+                                stable as a tortoise
+                                snippy fast to make you feel rabbit, going down his own rabbit-hole.
+
+                                a light-weight framework, to write notes, speeches, create estimates to presentation. All in a very few lines of code.
+
+                                drive documents spreadsheet presentations Images Video all in one tab.
+
+                                World’s fastest too.
+
+                                An open source project, [ everything happens here ] , is the core behind rest of shunya.ek digital products.
+
+                        Momac - everything you need, but sheets doessn't have.
+                                        kya aap apney erp sey pareshan hey	
+                                                        erp ko side kiijiyeah,
+                                                        google sheets mein erp ka maza lootiyeah
+                        
+                                        kya aap apni ERP implementation se pareshaan hey	
+                                                apney vendor ko fire kiijiyeah,
+                                                aur sheets mein erp ka maza lootiyeah
+                                                
+                                        kya app software key high prices se pareshaan hey	
+                                                36 software ko side kijiyeah,
+                                                MoMac ka mazalootiyeah
+                                                
+                                        A spreadsheet addon, that adds steroid on any normal excel sheet.	
+                                                
+                                        To start with it solves one the biggest problem of all excel and spreadsheet user. Sync to cells of two different files.	
+                                                
+                                        Rest of the features are as unique as the first one.	        
+                        actionBox
+                        actionEngine
+                        actionSpace
+                        unbelong
+                        bindu Ver O.1
+
+                        blockIt Ver O.1
+                        collaborative Art
+                        CRM
+
+                        ehh
+                        Estimate | TimeTrack | Invoice
+
+
+                        everyThingSchema Ver O.1
+                        Film I Event Production Management
+                        filmsGo
+                        grabIt. Ver O.1
+                        helpDesk
+                        manu.events
+                        miniErp Ver O.1
+                        Ministry of Magic on Action Cells [ Momac ] Ver O.1
+
+                        MoneyMatter Ver O.1
+                        moneyMatters
+                        ideaBook
+                        pari.css
+                        PixelRatio Generator
+                        rightContact
+                        ScreenShot Tool
+                        sheetDb
+
+                        sip
+                        SmartDocs
+                        Studio Management
+                        music magic
+                        Vendor Management
+                        whatsGoinOn
+                        You Will Love It
+
+                solutions
+
+                services
+
+                projects
+
+                get in touch.
