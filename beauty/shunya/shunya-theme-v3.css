@@ -1,0 +1,99 @@
+/*
+https://codepen.io/oliviale/full/mgWjpq
+https://codepen.io/internette/pen/qogvJv
+https://abbotsfordconvent.com.au/
+https://typecode.com/about/
+https://abbotsfordconvent.com.au/whos-here/
+*/
+
+/*Color theme*/
+
+:root{
+  
+  /*  dark and light */
+  --dark:#343a40ff;
+  --light:#f4f4ffff;
+  --black: #0d0d0dff;
+  --white:#ffffff;
+  --grey:#909090ff;
+  
+  /* theme colors*/
+  --color-primary: #007affff;
+  --color-secondary-success:#27a844ff;
+  --color-danger:#dc3546ff;
+  --color-warning:#fec107ff;
+  --color-info:#17a2b7ff;
+  
+/*Styling*/
+
+--active-brightness: 0.85;
+--border-radius: 5px;
+--box-shadow: 2px 2px 10px;
+
+
+}
+
+
+:root {
+   
+    --color: #118bee;
+    --color-accent: #118bee15;
+    --color-bg: #fff;
+    --color-bg-secondary: #e9e9e9;
+    --color-link: #118bee;
+    --color-secondary: #920de9;
+    --color-secondary-accent: #920de90b;
+    --color-shadow: #f4f4f4;
+    --color-table: #118bee;
+  
+    
+    --width-card: 285px;
+    --width-card-medium: 460px;
+    --width-card-wide: 800px;
+    --width-content: 1080px;
+  }
+
+  /*typography*/
+     :root{
+        --hover-brightness: 1.2;
+        --justify-important: center;
+        --justify-normal: left;
+        --line-height: 1.5;
+
+
+
+        @import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+        --color-text: #000;
+        --color-text-secondary: #999;
+        --font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+       
+    /*
+sizes
+Primarly used for text. 
+*/
+--text-smallest: 13px;
+--text-small:16px;
+--text-normal: 21px;
+--text-large:34px;
+--text-largest:55px;
+--text-gigantic: 89px;
+
+--font-primary : 'Montserrat', sans-serif;
+--font-secondary : 'Rubik', sans-serif;
+--font-highlight : font-family: 'Montserrat', sans-serif;
+--f-size-base: 16px;
+--f-line-height-heading: 1.5;
+--f-line-height-body: 1.5;
+--line-height:1.5;
+
+}
+.light{
+    --color:var(--dark);
+}
+.darkTheme{
+
+    --color: var(--light);
+  }
+  
