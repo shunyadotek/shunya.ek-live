@@ -1,50 +1,174 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>shunya.ek</title>
 </head>
-    <link rel="stylesheet" href="beauty/shunya/shunya-beauty-v-O-O-4.css">
+<link rel="stylesheet" href="beauty/shunya/shunya-beauty-v-O-O-4.css">
 <style>
-  
+    *{
+        /* padding:1rem; */
+        padding-left: 1rem;
+        padding-right: 1rem;
+    }
+    nav {
+        display: block;
+    }
+     footer{
+         left:0;
+         width:100%;
+         height:4rem;
+     }
+     footer p{
+         float:right;
+     }
+     section{
+         border:none;
+        
+     }
+     header{
+        float: right;
+        width: 80%;
+     }
+     h2{
+         font-size:2rem;
+         border-left:2px solid white;
+         padding:1rem;
+     }
+.tabs li{
+    width: 20%;
+  /* height: 250px; */
+  /* position:absolute; */
+}
+ .tabs label {
+  display: block;
+  padding: 22px 16px;
+  width: 100%;
+  height:60px;
+  border: none;
+  outline: none;
+  text-align: left;
+  cursor: pointer;
+  transition: 0.3s;
+}
+input[type="radio"]{
+    display: none;
+}
+.tab{
+    display:none;
+    margin-top:0;
+
+}
+#about:checked ~ #about_content,#work:checked ~ #work_content,#stories:checked ~ #stories_content{
+    display:block;
+    height: 100%;
+    position: absolute;
+    top: 0;
+}
 </style>
+
 <body class="bgimg">
     <nav>
         <ul>
+
+         
             <li>
-                <a href="">act ' 01 - shunya +</a></li>
-            <li class="right"><a href=""><img src="/assets/logo/shunya/shunya logo numbers & tag line 233 x233 px ver O-5 lightclean.svg" style="height: 8rem;"></a>
+                <a href="" style="margin-top:2rem;">act ' 01 - shunya +</a>
             </li>
+            <li><a href="" class="right"><img
+                src="/assets/logo/shunya/shunya logo numbers & tag line 233 x233 px ver O-5 lightclean.svg"
+                style="height: 8rem;"></a>
+    </li>
         </ul>
     </nav>
-    <header>
-        <section>
+    
+<section class="tabs">
+        <!-- <ul>
+            <li><a href="#">Who</a></li>
+            <li><a href="#">Why</a></li>
+            <li><a href="#">What</a></li>
+            <li><a href="#">Where</a></li>
+            <li><a href="#">How</a></li>
+        </ul> -->
+    <input type="radio" name="tabs" id="about" checked>
+    <input type="radio" name="tabs"  id="work"> 
+    <input type="radio" name="tabs" id="stories">
+      <!-- <div id="label"> -->
+       <li>
+        <label for="about" class="tabcontent">
+            about
+           </label>
+       </li>
         
-            <h2> when thoughts and memories are shared in the blink of an eye, <br>
-                our world will be at it’s efficient best, connected, automated & secure. <br>
-                fuelling creativity, bringing joy. <br>
-                at shunya.ek we are  building that world, in bits and bytes. <br>
-            </h2>
-        </section>
-    </header>
-   
+          <li><label for="work"  class="tabcontent">
+            Work
+           </label></li>
+         
+          <li><label for="stories" class="tabcontent">
+            Stories
+           </label></li>
+        <!-- </div>     -->
+        <section class="tab" id="about_content">
+            <header>
+              
+                   <h3>
+                       Disclaimer-
+                   </h3>
+                    <p> when thoughts and memories are shared in the blink of an eye, <br>
+                        our world will be at it’s efficient best, connected, automated & secure. <br>
+                        fuelling creativity, bringing joy. <br>
+                        at shunya.ek we are building that world, in bits and bytes. <br>
+                    </p>
+               
+                    <h3>
+                        Experience-
+                    </h3>
+                    <p>
+                    we homo sapiens are an entity in constant state of change & motion.
+                    experience
+                    form | function | beauty in its simplest form.
+                    online or offline.
+        
+                    This is our public manifesto.
+                    For privacy & security (and embarrassment) reasons, not everything is in here.</p>
+                 <!-- </section> -->
+            </header>
+          </section>
+        <section class="tab" id="work_content">
+            <header>
+                    <p> If you've ever found yourself digging through a junk drawer for a screwdriver, ruler, wrench, or bottle opener, then you've likely learned the value of having something on hand to accomplish whatever task with which you are stuck. <br>
+                        "If you're now on the hunt to get ur hands on peice of software  to ease your work frustrations and inconveniences, go no further.<br>
+                        Ease your pain and suffering with these handy and portable ehh tools."
+                    </p>
+            </header>
+          </section>
+        <section class="tab" id="stories_content">
+            <header>
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam, fugiat.</p>
+            </header>
+          </section>
+</section>
+
+
     <article>
-       
-     
-        <section>
+
+
+        <!-- <section>
             <audio controls autoplay>
                 <source src="assets/sounds/256149_Run_-_Master_(16-44.1).aac" type="audio/aac">
-                
-              Your browser does not support the audio element.
-              </audio>
-        </section>
+
+                Your browser does not support the audio element.
+            </audio>
+        </section> -->
         <footer>
-          
+
             <p><a href="mailto:hello@0dot1.live">hello@0dot1.live</a></p>
-          </footer>
+        </footer>
     </article>
-    
+
 </body>
+
 </html>

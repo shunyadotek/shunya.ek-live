@@ -113,9 +113,9 @@ ul{
   display: block;
 }
 li{
-  display: inline-block;
+  /* display: inline-block; */
   text-decoration: none;
-  width: 100%;
+  /* width: 100%; */
 }
 .right{
   float:right;
