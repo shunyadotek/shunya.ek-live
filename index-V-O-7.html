@@ -23,6 +23,7 @@
         left: 0;
         width: 100%;
         height: 4rem;
+        position: fixed;
     }
 
     footer p {
@@ -35,7 +36,7 @@
     }
     nav .sub {
     position: absolute;
-    top:15%;
+    top:13%;
     left:12%;
     width:50px;
     display: none;
@@ -190,11 +191,12 @@ header{
                 Your browser does not support the audio element.
             </audio>
         </section> -->
-        <footer>
-
-            <p><a href="mailto:hello@0dot1.live">hello@0dot1.live</a></p>
-        </footer>
+       
     </article>
+    <footer>
+
+        <p><a href="mailto:hello@0dot1.live">hello@0dot1.live</a></p>
+    </footer>
 
 </body>
 <script>
@@ -211,8 +213,6 @@ header{
   document.getElementById(tabName).style.display = "block";
   evt.currentTarget.className += " active";
 }
-
-// Get the element with id="defaultOpen" and click on it
 document.getElementById("defaultOpen").click();
 </script>
 </html>
