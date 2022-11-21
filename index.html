@@ -1,0 +1,596 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>shunya.ek</title>
+</head>
+<style class="reset">
+
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol, ul {
+  list-style: none;
+}
+blockquote, q {
+  quotes: none;
+}
+blockquote:before, blockquote:after, q:before, q:after {
+  content:'';
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+</style>
+<style class="core">
+
+html, body {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+body{
+  position: relative;
+}
+</style>
+<style class="stars">
+  html, body {
+height: 100%;
+
+}
+
+body {
+background: #000;
+perspective: 340px;
+}
+
+.stars {
+position: sticky;
+top: 50%;
+left: 50%;
+width: 2px;
+height: 2px;
+box-shadow: 798px -64px #f2f2f2, 154px 79px #cfcfcf, 6px 268px #f7f7f7, -570px -112px #c9c9c9, 874px -312px #fcfcfc, -97px -459px #e0e0e0, -913px 450px #c9c9c9, 794px -139px #d4d4d4, 755px -422px #e3e3e3, -628px -184px #e6e6e6, 1070px 340px #cfcfcf, 7px -151px #ededed, -807px 464px #d6d6d6, -917px -214px #ededed, 535px 53px #fcfcfc, -549px -55px #d4d4d4, 1114px 224px #cccccc, 924px 303px #e8e8e8, -1333px -466px #c2c2c2, -161px -199px white, -1434px 308px #ededed, -142px 352px #d1d1d1, 1191px -317px #d9d9d9, -979px -168px #fafafa, -777px 161px #d4d4d4, -940px -146px whitesmoke, 1041px -34px #c4c4c4, -114px 274px #dedede, -895px -158px #f2f2f2, -1468px -66px #d6d6d6, 1322px 396px #cccccc, -657px -455px #e8e8e8, -1269px -459px #fcfcfc, 1278px 320px #dedede, 892px -122px #e0e0e0, -900px -25px #f0f0f0, -506px -253px #d6d6d6, -960px 255px #d1d1d1, 548px -273px #ebebeb, 1426px -106px #e3e3e3, -521px -2px #c7c7c7, 580px -347px #ebebeb, -1482px 384px #dbdbdb, 281px -159px #e6e6e6, -392px -360px #dedede, 754px 54px #cccccc, 1173px 434px #f0f0f0, -1190px -316px whitesmoke, -535px -65px #f0f0f0, -618px -34px #f2f2f2, 14px -306px #d4d4d4, 382px -6px #d4d4d4, 1017px -421px #fcfcfc, 1191px 209px #cccccc, -779px -65px #f0f0f0, -482px -81px #cccccc, -12px 436px #cfcfcf, -49px 153px #e0e0e0, 1485px 44px white, -1356px -34px whitesmoke, 1291px -50px #d6d6d6, -1079px 350px #e8e8e8, -634px -145px #e3e3e3, 536px 275px #e0e0e0, -1145px -402px #fcfcfc, -1140px 230px #f7f7f7, 1092px -459px #c9c9c9, -660px -80px #cccccc, -768px -427px #d6d6d6, 627px 81px #d9d9d9, 525px 425px whitesmoke, -1037px -25px #d4d4d4, -649px -66px #cccccc, 376px -75px #dbdbdb, 544px -164px #c9c9c9, 1169px -175px #d4d4d4, -1317px -129px #c7c7c7, 515px 270px #cfcfcf, -251px 287px #e6e6e6, 1238px -441px #e6e6e6, 1324px -35px #f2f2f2, -1204px -322px #e0e0e0, 1384px 191px #fafafa, -163px 347px #f2f2f2, 774px -74px #c2c2c2, -870px -477px #d9d9d9, 994px 153px #ededed, 1388px 351px #c9c9c9, -1390px -243px #cccccc, -3px -280px #dedede, 1389px 103px #d1d1d1, -55px 151px #c9c9c9, 605px -118px #c2c2c2, -881px -131px #d6d6d6, 799px 303px #e8e8e8, 60px 470px #cccccc, 318px 209px #c4c4c4, -722px -133px #c2c2c2, -817px -366px #d9d9d9, -149px 476px #e6e6e6, -1067px 301px #fcfcfc, 300px 470px #dbdbdb, -1102px 93px #c7c7c7, 48px 210px white, -630px -219px whitesmoke, -791px -29px whitesmoke, 70px 176px #d9d9d9, 1381px 15px #c9c9c9, -530px 416px #cfcfcf, -1398px 281px #cccccc, 1143px -463px #e3e3e3, 1216px 277px #fcfcfc, 985px 392px #cccccc, -1437px -393px #c2c2c2, -1111px 276px #c7c7c7, -770px -305px #e0e0e0, -831px -76px #e8e8e8, 1474px 139px #d9d9d9, 114px 231px #dedede, 909px -344px #fafafa, 405px 96px #c9c9c9, -1267px 446px #f2f2f2, 337px -52px #e3e3e3, 1310px -43px #cfcfcf, -1339px -395px #d4d4d4, 914px -13px #e0e0e0, -231px -385px #cfcfcf, -177px 347px #c7c7c7, -357px -231px #dbdbdb, 991px -217px #ededed, 44px 104px #e6e6e6, 798px -7px #ededed, 1272px 371px white, 521px -31px #cccccc, -354px -59px #d4d4d4, 930px -374px #cfcfcf, -93px 474px #e8e8e8, -1030px -367px white, -656px 26px #e6e6e6, -481px -285px #e8e8e8, 179px 463px whitesmoke, -246px 65px #c7c7c7, -458px -226px #cccccc, 599px 237px #c4c4c4, -191px -254px #f2f2f2, -1227px -126px #fcfcfc, 7px 33px #d6d6d6, 815px 61px whitesmoke, 925px -372px #c2c2c2, -379px 412px #dbdbdb, -387px 270px #fcfcfc, -844px 250px whitesmoke, 475px 390px #e8e8e8, 1474px -299px #e0e0e0, -567px 136px #e0e0e0, -1111px -125px #ededed, -113px 240px #c7c7c7, -1284px -395px #f7f7f7, -852px 157px #ededed, -1429px -270px #ededed, 1051px -223px #e3e3e3, -1179px 177px #e8e8e8, -1458px 428px #f7f7f7, -23px 261px #e6e6e6, -1337px -441px #d9d9d9, 113px -273px #c2c2c2, -1254px -184px #d6d6d6, -1232px 23px #c7c7c7, 255px 231px #c4c4c4, -1272px 59px #dbdbdb, 385px -91px #fafafa, -532px -319px #f2f2f2, -1195px 356px #dbdbdb, -864px 195px #c9c9c9, -838px -56px #d9d9d9, 857px -257px white, 282px -112px #cfcfcf, -102px -210px #ebebeb, 472px 96px #dbdbdb, 192px 356px #c4c4c4, 884px -373px #d1d1d1, -1093px -349px #e8e8e8, 827px 100px #f2f2f2, 943px -236px whitesmoke, -690px 136px #cfcfcf, 1254px 347px #dbdbdb, -887px -83px #ebebeb, 1360px -283px #c4c4c4, 207px 388px #ededed, -1445px 280px white, 1447px 223px #cccccc, 637px 59px #c2c2c2, 856px -264px #d1d1d1, 162px 463px white, -1321px -340px #c7c7c7, 838px 462px #f0f0f0, -124px -432px whitesmoke, 336px 28px whitesmoke, -505px 287px #d6d6d6, 229px -131px #c7c7c7, 1278px -333px #c4c4c4, -1135px 314px #ebebeb, -1118px 0px #e8e8e8, -364px 33px #c4c4c4, -1059px -101px #c4c4c4, 951px 268px #e6e6e6, -338px -155px #cccccc, 781px 218px #fcfcfc, -593px -334px #dedede, -338px -304px #c7c7c7, -469px -413px #c2c2c2, 1329px 57px #e3e3e3, -1020px -333px #cfcfcf, -724px -316px #c9c9c9, -1229px -77px #ebebeb, 860px -210px #e8e8e8, -399px -85px #d4d4d4, -240px -318px #e3e3e3, 962px 287px #fafafa, 406px 230px #cfcfcf, 425px -104px #c9c9c9, 114px 321px #c2c2c2, -621px 166px #c2c2c2, -1092px -29px #fcfcfc, 663px 330px #cccccc, 1040px -158px #d9d9d9, 617px -40px #ededed, -1124px -401px #fafafa, -1389px -387px #d6d6d6, 1308px -45px #d9d9d9, 75px -410px #cccccc, 873px 454px #e6e6e6, -408px -189px #dedede, -1442px -241px #e3e3e3, -704px -301px #fcfcfc, 342px 74px #fcfcfc, 699px 448px #c4c4c4, -1371px 121px #cccccc, -1403px -434px #e3e3e3, 865px 27px #fcfcfc, 141px -141px #fcfcfc, 1163px -43px #d6d6d6, -979px 43px #fafafa, -982px -165px #d4d4d4, 1475px 330px #cccccc, -313px 416px #d4d4d4, 80px -349px #cccccc, 920px 377px #c9c9c9, 863px -357px #ebebeb, -1444px -403px #fafafa, -709px 428px #cccccc, 329px 290px #c2c2c2, -629px -471px #c7c7c7, 358px -343px #f7f7f7, 970px -202px white, -1051px 247px #e0e0e0, -572px 188px whitesmoke, 257px -336px #c4c4c4, -534px 423px #ededed, -1231px -336px #e0e0e0, 9px -200px #d1d1d1, 667px -162px white, 193px -373px #ebebeb, 1495px 413px #e0e0e0, 698px 100px #c4c4c4, 370px -299px #ededed, -790px -34px #f7f7f7, -1290px 336px #e0e0e0, 1174px 132px #d4d4d4, -537px -333px #c2c2c2, -657px -380px #e6e6e6, -851px -118px #f0f0f0, 339px -429px #cccccc, 363px -392px #fafafa, 562px 243px #c2c2c2, -49px 141px #e0e0e0, 6px 70px #f7f7f7, 1237px -452px #e8e8e8, 152px 289px #e6e6e6, -710px 36px #e8e8e8, 869px 125px #e3e3e3, -165px -362px #fafafa, 1131px -16px whitesmoke, 1472px 247px #e6e6e6, 684px 146px #f2f2f2, 662px -155px #d4d4d4, -240px 71px #d4d4d4, 646px 54px #d6d6d6, -1335px 425px #cfcfcf, -1366px -52px #c7c7c7, 1211px 379px #f7f7f7, -1424px -65px #f7f7f7, -8px 311px #d1d1d1, -772px 191px whitesmoke, -78px 383px #dbdbdb, -497px -300px #dedede, 333px -420px #cfcfcf, -1140px -52px #d6d6d6, 203px -200px #c2c2c2, -430px -345px #ebebeb, -471px -239px #cccccc, 701px 308px #f0f0f0, -530px 442px #d1d1d1, 647px -99px #cfcfcf, 952px -98px #f2f2f2, -125px -341px #e0e0e0, 152px -1px #f0f0f0, 834px -291px #dbdbdb, 1385px 256px #f7f7f7, -59px -434px #dedede, -1488px 279px #c4c4c4, 1449px -63px #d4d4d4, 741px -140px #f7f7f7, 1025px -404px #dbdbdb, -764px -80px white, 384px -239px #e0e0e0, 790px 374px #f0f0f0, 846px 480px #c9c9c9, -1047px 146px #d1d1d1, 1385px 190px #e3e3e3, -446px -146px #fcfcfc, -476px -196px #ededed, -1496px -129px white, 1440px -261px #d1d1d1, -983px -366px #f7f7f7, 356px 31px #cfcfcf, -452px -415px #dedede, -348px -357px white, -1226px 249px #c7c7c7, -1084px 42px #f7f7f7, -560px 244px #f2f2f2, 292px -250px #cccccc, 372px -412px #e6e6e6, 646px -384px #e3e3e3, -877px -160px #f0f0f0, -50px 463px #fafafa, -1042px 451px #ededed, -700px 130px #f2f2f2, 208px -301px #fafafa, 815px 474px #cccccc, 77px -70px #ebebeb, 620px 405px #f0f0f0, -1023px -458px #d1d1d1, 403px 377px white, -874px -427px #e0e0e0, 1012px 20px #d6d6d6, 1146px 80px #fcfcfc, 1379px -269px #cfcfcf, 255px -312px #cfcfcf, -750px -302px #ededed, 861px 195px #d1d1d1;
+animation: fly 8s linear infinite;
+transform-style: preserve-3d;
+}
+.stars:before, .stars:after {
+content: "";
+position: absolute;
+width: inherit;
+height: inherit;
+box-shadow: inherit;
+}
+.stars:before {
+transform: translateZ(-300px);
+animation: fade1 3s linear infinite;
+}
+.stars:after {
+transform: translateZ(-600px);
+animation: fade2 3s linear infinite;
+}
+
+@keyframes fly {
+from {
+  transform: translateZ(0px);
+}
+to {
+  transform: translateZ(300px);
+}
+}
+@keyframes fade1 {
+from {
+  opacity: .5;
+}
+to {
+  opacity: 1;
+}
+}
+@keyframes fade2 {
+from {
+  opacity: 0;
+}
+to {
+  opacity: .5;
+}
+}
+
+</style>
+<style class="themeColor">
+
+/*Color theme*/
+
+:root{
+  
+  /*  dark and light */
+  --black: #0d0d0dff;
+  --dark:#161618;--temp:#0f1412;
+  --dark-grey:#131c20;
+  --grey:#555555;
+  --light-grey:	rgba(190, 190, 190);
+  --light-grey-faded:	rgb(190,190,190,0.89);
+  --light:#dde0e2ff;
+  --white:#ffffff;
+  
+   
+  /* theme colors*/
+  --color-primary: #007affff;
+  --color-secondary-success:#27a844ff;
+  --color-danger:#dc3546ff;
+  --color-warning:#fec107ff;
+  --color-info:#17a2b7ff;
+  
+/*Styling*/
+
+--active-brightness: 0.85;
+--border-radius: 5px;
+--box-shadow: 2px 2px 10px;
+
+
+}      body{
+            background-color: var(--dark-grey);
+            color: var(--light);
+        }
+        
+        a{
+          text-decoration: none;
+          color: var(--light-grey-faded);
+        }
+        
+
+h2{
+  color: var(--white);
+  opacity: 80%;
+}
+h3{
+  color: var(--light-grey-faded);
+  opacity: 55%;
+}
+h4{
+  color: var(--white);
+  
+}
+h5{
+  color: var(--ight);
+}
+h6{
+  opacity:.5;
+}
+p,h6{
+  color: var(--light-grey);
+  
+}
+.bright{
+  color: var(--white);
+}
+img{
+  display: inline-block;
+}
+</style>
+<style class="container">
+header{
+  margin-top: 13rem;
+}
+section{
+  display: block;
+  padding-top: 5rem;
+  padding-left: 5rem;
+  padding-bottom: 13rem;
+  margin-top: 3rem;
+  height: max-content;
+
+}
+li{
+  width: max-content;
+  vertical-align: middle;
+}
+.content ul{
+  width:inherit;
+}
+</style>
+<style class="interactive">
+a {
+  float: left;
+  text-align: center;
+  padding-left: 1.3rem;
+  padding-right: 1.3rem;
+  padding-top: .5rem;
+  padding-bottom: .5rem;
+  text-decoration: none;
+  font-weight: 100;
+  
+  line-height: 1.3; 
+  transition: padding-left .3s;
+  transition: all .3s;
+
+}
+a:hover{
+    color: var(--light);
+    font-size: 5.5rem; 
+    padding-left: 2rem;
+    transition: all .3s;
+  }
+</style>
+<style class="typo">
+  :root{
+    /*@charset*/
+--font-size:1.6rem;
+--baseline:2.4rem;
+
+/*font*/
+
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;1,100;1,200;1,300&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+  
+/*
+  sizes
+  Primarly used for text. 
+  */
+  --text-smallest: 13px;
+  --text-small:16px;
+  --text-normal: 21px;
+  --text-large:34px;
+  --text-largest:55px;
+  --text-gigantic: 89px;
+  
+  --font-primary : 'Montserrat', sans-serif;
+  --font-secondary : 'Rubik', sans-serif;
+  --font-highlight : 'Montserrat', sans-serif;
+
+  }
+
+    html { font-size: 62.5%; 
+   
+  }
+  body {
+ 
+    
+      margin:0 auto;
+      line-height: var(--baseline);
+      font-size: var(--font-size); /* currently ems cause chrome bug misinterpreting rems on body element */
+      font-family: var(--font-secondary);
+      font-weight: 400;
+    
+      color: var(--light);
+  }
+
+  
+  /* Typography
+  –––––––––––––––––––––––––––––––––––––––––––––––––– */
+  h1, h2, h3, h4, h5, h6 {
+   
+
+   margin-top: 3rem;
+   margin-bottom: 1.5rem;
+   overflow-wrap: break-word;
+   word-wrap: break-word;
+   -ms-word-break: break-all;
+   word-break: break-word; 
+  
+ 
+ }
+
+ h1,h4,h5{
+  font-family: var(--font-primary);
+ }
+ h2,h3,h6,p{
+  font-family: var(--font-secondary);
+ }
+ h1 { 
+  
+   font-weight: 200;
+   font-size: 8.9rem;
+   line-height: 1.3; 
+   
+   }
+
+ h2{
+ 
+  margin-top:5rem;
+  margin-bottom: 1rem;
+  font-weight: 600;
+  font-size: 5.5rem; 
+  line-height: 1.3; 
+  letter-spacing: -.1rem; 
+ }
+
+
+ h3 {
+   font-size: 3.4rem;
+    line-height: 1.5;
+      letter-spacing:-.1rem;
+      font-weight: 400;
+    margin-bottom: 4rem;
+     }
+ h4 {
+   font-size: 2.4rem;
+   line-height: 1.8;
+    font-weight: 300;
+ }
+ h5 { 
+   font-size: 1.8rem;
+   font-weight: 600; 
+   line-height: 1.5;
+   letter-spacing: -.05rem; }
+ h6 {
+    font-size: 1.3rem; line-height: 1.6;  letter-spacing: 0; 
+  font-weight: 400;
+  opacity: 55%;
+}
+p{
+ 
+  font-size: 1.8rem;
+   line-height: 1.8;
+    font-weight: 300;
+    margin-top:5rem;
+    margin-bottom: 2.4rem;
+    width: 54rem;
+    overflow-wrap: break-word;
+   word-wrap: break-word;
+   -ms-word-break: break-all;
+   word-break: break-word; 
+}
+b{
+  font-weight: 500;
+ 
+}
+
+</style>
+<style class="article">
+  article{
+    position: relative;
+    display: block;
+    padding-left: 21%;
+  }
+</style>
+
+
+<style class="nav">
+ nav{
+      
+       height: 89px;
+        padding-left: 13%;
+        padding-right: 3%;
+          }
+    nav,ul{
+      display: flex;
+    }
+    
+    nav>ul{
+     
+      min-width: max-content;
+      
+      justify-content: space-between;
+      vertical-align: bottom;
+      align-items: center;
+      
+    }
+ 
+
+  nav ul li:hover {
+      background-color: var(--grey);
+      align-items: center;
+     
+  }
+  nav ul li:hover>ul {
+      display: flex;
+     
+  }
+
+  nav ul li ul li ul {
+      position: absolute;
+      left: 100%;
+      top: 0px;
+
+  }
+
+  nav ul ul {
+      display: none;
+  }
+
+
+</style>
+<style class="menu">
+          
+  .sub{
+    position: relative;
+    padding-left: 13rem;
+    display: none;
+     z-index: 1;
+     padding-bottom: 5rem;
+  }
+
+.menu li{
+  width: max-content;
+}
+.menu li:hover > .sub {
+display: block;
+
+}
+.menu li:hover > .content {
+display: flex;
+
+}
+.menu li:hover  *{
+  color: var(--dark-grey);
+}
+.menu li:hover{
+background-color: var(--light);
+box-shadow:
+0px 2.8px 2.2px rgba(0, 0, 0, 0.005),
+0px 6.7px 5.3px rgba(0, 0, 0, 0.011),
+0px 12.5px 10px rgba(0, 0, 0, 0.02),
+0px 22.3px 17.9px rgba(0, 0, 0, 0.03),
+0px 41.8px 33.4px rgba(0, 0, 0, 0.044),
+0px 100px 80px rgba(0, 0, 0, 0.07)
+;
+}
+
+
+
+.menu li:hover > a {
+color: var(--dark-grey);
+font-weight: bold;
+}
+
+
+</style>
+<style class="content">
+.content{
+  padding-left: 13rem;
+
+}
+
+
+</style>
+<style class="utility">
+  .bgwhite{
+                background-color: whitesmoke;
+              }
+  .col{
+    flex-direction: column;
+  }
+  .row{
+    flex-direction: row;
+  }
+  .right{
+      float: right;
+  }
+  .left-sticky{
+    position: fixed;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+  }
+  .right-sticky{
+    position: fixed;
+  top: 50%;
+  -webkit-transform: translateY(50%);
+  -ms-transform: translateY(50%);
+  transform: translateY(50%);
+  }
+  .hidden{
+display: none;
+}
+.border-hairline {
+box-shadow: 0 0 0 1px var(--light-grey-faded);
+}
+
+
+.left{
+float: left;
+}
+</style>
+<style>
+  audio{
+    display: none;
+  }
+  .bgimg {
+  background-image: url("/assets/gfx/shunya/bg/shunyaWallaperBG_WO_circle.svg");
+  height: 100%;
+  background-position: center;
+  background-size: cover;
+  position: relative;
+  
+
+}
+.right{
+  float: right;
+
+}
+
+</style>
+
+<body >  
+ 
+  <div class="stars "></div>
+  <audio controls autoplay class="right-sticky">
+    <source src="assets/sounds/256149_Run_-_Master_(16-44.1).aac" type="audio/aac">
+</audio>
+
+ 
+    <main>
+     
+
+        <article id="content" current ="about">
+         <!-- tab eg : https://typecode.com/about/-->
+        <header>
+<section>
+  <img src="assets/logo/shunya/shunya logo ver O-5 clean light.svg" alt="">
+</section>
+          <section>
+            <h4>
+              when <b class="bright">thoughts</b> & <b class="bright"> memories</b> are shared in the blink of an eye, <br>
+              our world will be at it’s <b class="bright">efficient</b> best, <br>
+              fuelling <b class="bright">creativity</b>, bringing <b class="bright">joy</b>. <br>
+            </h4>
+          
+          <p>    at <span class="bright"> shunya.<b>ek</b></span> we are building that world, in bits <b>&</b> bytes. <br> </p>
+          <hr>
+          <menu>
+            <ul>
+              <li><a href="">about</a></li>
+              <li><a href="">work</a></li>
+              <li><a href="">story</a></li>
+            </ul>
+          </menu>
+           
+      
+        </section>
+      
+        </header>
+        
+        
+        </article>
+       
+    </main>
+   
+</body>
+<script>
+  // When the user scrolls down 50px from the top of the document, resize the header's font size
+window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+  if (document.body.scrollTop > 50 || document.documentElement.scrollTop > 50) {
+    document.getElementById("header").style.fontSize = "30px";
+  } else {
+    document.getElementById("header").style.fontSize = "90px";
+  }
+}
+  window.onclick = (e) => {
+    comment(e)
+
+}
+  function comment(e){
+    //https://www.w3.org/TR/annotation-html/
+    var mouseX = e.pageX;
+    var mouseY = e.pageY;
+console.log("i hear you", e.target, mouseX, mouseY)
+
+  }
+</script>
+</html>
